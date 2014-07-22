@@ -1,0 +1,62 @@
+body {
+padding: 20px; margin: 0;
+}
+
+.container {
+    background: #EEE
+    
+}
+.container, .header, .main, .footer {
+    border: 1px solid #000;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.header {
+    background: #FEE;
+}
+.footer {
+    clear: both;
+    background: #EEF;
+}    
+.main{
+    background: #EFE;
+    
+}
+.content, .sidebar {
+    padding: 20;
+    height: 80px;
+    outline: 1px solid #333;
+}
+.content {
+    width: 70%;
+    float: left;
+    background: #EFF;
+}
+
+.sidebar{
+    width: 30%;
+    float: left;
+    background: #FFE;
+}
+.inner {
+    padding: 0 20px;
+}
+
+
+.left-sidebar .content,
+.left-sidebar .sidebar {
+    float: right;
+}
+.both-sidebar .content {
+width: 40%;
+}
+
+.both-sidebar .content,
+.both-sidebar .sidebar {
+    float: left;
+}
+
+
+
+
