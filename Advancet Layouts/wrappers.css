@@ -1,0 +1,44 @@
+* {padding: 0; margin: 0;}
+
+body {}
+
+.wrapper {
+    width: 800px;
+    margin: 0 auto;
+    padding: 2em 0;
+}
+.wrapper:after {
+    display: block;
+    content: '';
+    clear: both;
+    height: 1px; overflow: hidden;
+}
+.header {
+    background: #FFE;
+}
+.featured {
+    background: #EFF url('featured_bgrd.jpg')left bottom no-repeat;
+    background-size: cover;
+}
+.featured p {
+    background: rgba(0,0,0,0.5);
+    border-radius: 1em;
+    color: #FFF;
+    padding: 1em;
+
+}
+.featured .wrapper {
+padding: 0.5em;
+}
+
+.main {
+    background: #FFE;
+}
+.footer {
+    background: #FFE;
+}
+/*columns*/
+
+.column {float: left; overflow: hidden;}   
+.content { width: 70%;}
+.sidebar {width: 30%;}
